@@ -1,0 +1,8 @@
+.none {
+	display: none !important;
+}
+
+.no-scroll {
+	position: relative; //этого не было на ноу скролл
+	overflow-y: hidden;
+}

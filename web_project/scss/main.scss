@@ -1,0 +1,38 @@
+/* Base */
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/base";
+@import "./base/utils";
+
+
+/* Blocks */
+@import "./blocks/header";
+@import "./blocks/modal";
+@import "./blocks/mainScreen";
+@import "./blocks/skills";
+@import "./blocks/support";
+@import "./blocks/experience";
+@import "./blocks/pricing";
+@import "./blocks/cases";
+@import "./blocks/team";
+@import "./blocks/reviews";
+@import "./blocks/slickcss";
+@import "./blocks/faq";
+@import "./blocks/contacts";
+@import "./blocks/feedback-form";
+
+
+/* Media Blocks */
+@import "./blocks/media/headerMedia";
+@import "./blocks/media/modalMedia";
+@import "./blocks/media/mainScreenMedia";
+@import "./blocks/media/skillsMedia";
+@import "./blocks/media/supportMedia";
+@import "./blocks/media/experienceMedia";
+@import "./blocks/media/pricingMedia";
+@import "./blocks/media/casesMedia";
+@import "./blocks/media/teamMedia";
+@import "./blocks/media/reviewsMedia";
+@import "./blocks/media/slickcssMedia";
+@import "./blocks/media/contactsMedia";
+@import "./blocks/media/faqMedia";

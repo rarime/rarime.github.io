@@ -1,0 +1,112 @@
+.cases {
+    padding: 180px 140px 80px 140px;
+    background-color: #fff;
+    text-align: center;
+
+    h2 {
+        color: rgb(5, 12, 51);
+        font-size: 42px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+    &-wrapper {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 60px;
+    }
+      
+    &-item {
+        position: relative;
+        padding: 0 0 70px 0;
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        justify-content: center;
+        max-width: 380px;
+        transition: transform 0.2s ease-in-out;
+
+        &:hover {
+            transform: scale(1.04);
+        }
+
+        img {
+            border-radius: 6px;
+        }
+    }
+
+    &-text {
+        padding: 0 30px;
+        max-width: 312px;
+        h3 {
+            color: rgb(5, 12, 51);
+            font-size: 18px;
+            font-weight: 700;
+            text-align: left;
+        }
+
+        .data {
+            color: gray;
+            font-size: 12px;
+            font-weight: 700;
+            text-align: left;
+            margin-top: 5px;
+        }
+
+        p {
+            color: rgb(5, 12, 51);
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 22px;
+            text-align: left;
+            margin-top: 20px;
+        }
+    }
+
+    &-over {
+        max-width: 380px;
+        padding: 0 0 0 0;
+        row-gap: 0;
+
+            .cases-text { 
+                position: absolute;
+                left: 40px;
+                bottom: 40px;
+                width: 100%;
+                color: #fff;
+
+                h3 {
+                    color: #fff;
+                }
+
+                .data {
+                    color: rgb(198, 198, 198);
+                }
+        }
+    }
+
+    .btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 24px 75px;
+        color: rgb(5, 12, 51);
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 6%;
+        text-align: center;
+        text-transform: uppercase;
+
+        border: 1px solid gray;
+        border-radius: 5px;
+        transition: all 0.1s linear;
+
+        &:hover {
+            color: #fff;
+            background-color: gray;
+        }
+    }
+}

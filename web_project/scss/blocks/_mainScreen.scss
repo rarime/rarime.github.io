@@ -1,0 +1,114 @@
+.mainScreen {
+    position: relative;
+    padding: 190px 110px 154px 110px;
+
+    .drupliconImg {
+        position: absolute;
+        top: -70%;
+        left: -10%;
+        z-index: -1;
+    }
+
+    .mainImg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: -2;
+    }
+
+    .container-flex {
+        align-items: flex-start;
+        row-gap: 50px;
+    }
+
+    &-text {
+        max-width: 506px;
+        h1 {
+            max-width: 506px;
+            color: rgb(255, 255, 255);
+            font-size: 52px;
+            font-weight: 700;
+            text-align: left;
+            line-height: 60px;
+        }
+
+        .subtitle {
+            color: rgb(255, 255, 255);
+            font-size: 18px;
+            font-weight: 500;
+            text-align: left;
+            margin: 13px 0 55px 0;
+            line-height: 28px;
+        }
+
+        .btn {
+            display: block;
+            color: rgb(255, 255, 255);
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 6%;
+            text-align: center;
+            text-transform: uppercase;
+            border: 2px solid rgb(241, 77, 52);
+            border-radius: 5px;
+            padding: 24px 0;
+            width: 220px;
+            transition: all 0.07s ease-in;
+
+            &:hover {
+                background-color: var(--color-orange);
+            }
+        }
+    }
+
+    .advantages {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        column-gap: 56px;
+        row-gap: 100px;
+        flex-wrap: wrap;
+        max-width: 580px;
+        &-item {
+            display: flex;
+            align-items: flex-end;
+            column-gap: 10px;
+            .line {
+                width: 3px;
+                height: 80px;
+                background-color: var(--color-orange);
+            }
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+                align-items: flex-start;
+
+                color: rgb(255, 255, 255);
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 15px;
+                text-align: left;
+
+                max-width: 140px;
+            }
+
+            .number {
+                color: rgb(255, 255, 255);
+                font-size: 24px;
+                font-weight: 700;
+            }
+
+            .trophy {
+                display: flex;
+                align-items: flex-end;
+                color: rgb(255, 255, 255);
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 35px;
+            }
+        }
+    }
+}

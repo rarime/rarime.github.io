@@ -1,0 +1,80 @@
+@media (max-width: 1350px) {
+    .experience {
+        padding: 380px 30px 173px 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .experience {
+        padding: 280px 0 0 0;
+        display: flex;
+        row-gap: 0px;
+        flex-direction: column;
+        align-items: flex-start;
+
+        &-wrapper {
+            padding-left: 100px;
+        }
+
+        .imgWrap {
+            position: relative;
+            width: 70%;
+        }
+    }
+}
+
+@media (max-width: 830px) {
+    .experience {
+        .drupliconImg {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .experience {
+        &-wrapper {
+            padding-left: 10px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-size: 36px;
+            line-height: 44px;
+            margin-bottom: 30px;
+        }
+
+        &-text {
+            flex-direction: column;
+            row-gap: 25px;
+        }
+
+        .imgWrap {
+            margin-top: -40px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .experience {
+        h2 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .experience {
+        h2 {
+            font-size: 28px;
+            line-height: 36px;
+        }
+
+        &-text {
+            .block {
+                column-gap: 10px;
+            }
+        }
+    }
+}

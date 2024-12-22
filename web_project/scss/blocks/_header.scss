@@ -1,0 +1,204 @@
+.header {
+    position: relative;
+    padding: 34px 110px;
+
+    .logo {
+        img {
+            width: 280px;
+        }
+    }
+
+    nav {
+        ul {
+            display: flex;
+            align-items: center;
+            column-gap: 50px;
+        }
+
+        a, .tarifs {
+            position: relative;
+            padding-bottom: 6px;
+            color: rgb(255, 255, 255);
+            font-family: var(--font-second);
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: uppercase;
+
+            &:after {
+                content: "";
+                background: var(--color-orange);
+                width: 0%;
+                height: 3px;
+                border-radius: 2px;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: 0;
+                transition: all 0.1s ease-in;
+            }
+
+            &:hover:after {
+                width: 100%;
+            }
+        }
+    }
+
+    .wrap {
+        display: flex;
+        column-gap: 38px;
+        align-items: center;
+        .tel {
+            color: rgb(255, 255, 255);
+            font-size: 18px;
+            font-weight: 500;
+            transition: all 0.05s ease-in-out;
+
+            &:hover {
+                color: var(--color-orange);
+            }
+        }
+
+        .lang {
+            position: relative;
+            display: flex;
+            column-gap: 13px;
+            align-items: center;
+            color: rgb(255, 255, 255);
+            font-size: 14px;
+            font-weight: 700;
+            transition: all 0.05s ease-in-out;
+            padding-bottom: 6px;
+            margin-top: 6px;
+            cursor: pointer;
+
+            &:hover {
+                color: var(--color-orange);
+
+                .lang-wrap {
+                    display: flex;
+                    opacity: 1;
+                    
+                    a {
+                        display: block;
+                        padding: 6px;
+                        color: #fff;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .tarifs {
+        position: relative;
+        padding-right: 18px;
+        cursor: pointer;
+        padding-bottom: 6px !important;
+        margin-top: 6px;
+        &:before {
+            content: "";
+            display: block;
+            width: 12px;
+            height: 10px;
+            background: url(./../../img/arrow-lang.svg) center center / cover;
+            position: absolute;
+            right: 0;
+            top: 40%;
+            transform: translateY(-50%);
+        }
+
+        &:after {
+            display: none;
+        }
+
+        &:hover, &:focus {
+            color: var(--color-orange);
+
+            .tarifs-wrap {
+                display: flex;
+                opacity: 1;
+            }
+        }
+
+        &-wrap {
+            flex-direction: column;
+            align-items: flex-start;
+
+            position: absolute;
+            top: calc(100%);
+            z-index: 999;
+            background-color: var(--color-orange);
+            transition: all 0.1s ease-in;
+            display: none;
+            opacity: 0;
+
+            a {
+                display: block;
+                width: 100%;
+                font-size: 14px;
+                padding: 5px 6px;
+                transition: all 0.03s ease-in;
+
+                &:hover {
+                    background-color: #ef280e;
+                }
+            }
+        }
+    }
+}
+
+.burger {
+    display: none;
+    position: relative;
+    z-index: 3;
+    width: 40px;
+    height: 4px;
+    background: #f4520a;
+    border-radius: 4px;
+    transition: all 0.1s ease-in;
+
+    &-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    &:before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 4px;
+        top: -10px;
+        background: #ef8f05;
+        position: absolute;
+        border-radius: 4px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    &:after {
+        content: "";
+        display: block;
+        width: 60%;
+        height: 4px;
+        background: #ef280e;
+        position: absolute;
+        top: 10px;
+        right: 0;
+        border-radius: 4px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    &-active {
+        height: 0;
+        &:after {
+            width: 100%;
+            transform: translateY(-10px) rotate(45deg);
+        }
+
+        &:before {
+            transform: translateY(10px) rotate(-45deg);
+        }
+    }
+}

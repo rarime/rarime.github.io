@@ -1,0 +1,38 @@
+* {
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+}
+
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+body {
+	position: relative;
+	background-color: #000;
+	color: #fff;
+    font-family: "DM Sans", sans-serif;
+	max-width: 100%;
+}
+
+.container {
+	width: 100%;
+	padding: 0 130px;
+}
+
+.container-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+// @font-face {
+//     font-family: 'Baystar Script';
+//     src:
+//         url('./../fonts/BaystarScriptLight-PERSONAL_USE_ONLY.otf') format('woff2'),
+//         url('./../fonts/BaystarScriptMedium-PERSONAL_USE_ONLY.otf') format('woff2'),
+// 		url('./../fonts/BaystarScriptBold-PERSONAL_USE_ONLY.otf') format('woff2');
+// }

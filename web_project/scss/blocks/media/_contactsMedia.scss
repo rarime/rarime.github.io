@@ -1,0 +1,224 @@
+@media (max-width: 1250px) {
+    .contacts {
+        &-wrapper {
+            padding: 120px 50px 71px 50px;
+        }
+
+        .project {
+            padding-left: 50px;
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .popup {
+        form {
+            width: 360px;
+        }
+
+        .agree label {
+            max-width: 320px;
+        }
+
+        .submit {
+            padding: 18px 0;
+        }
+    }
+
+    .contacts {
+        .imgD {
+            width: 35%;
+        }
+
+        .miniD {
+            width: 200px;
+        }
+
+        &-text {
+            max-width: 410px;
+            h2 {
+                font-size: 38px;
+                line-height: 44px;
+            }
+
+            .tel {
+                font-size: 30px;
+            }
+        }
+
+        &-data {
+            margin-top: 120px;
+        }
+    }
+}
+
+@media (max-width: 990px) {
+    .contacts {
+        padding: 0 0 140px 0;
+
+        .imgD {
+            bottom: 86px;
+        }
+    }
+}
+
+@media (max-width: 880px) {
+    .popup {
+        form {
+            width: 325px;
+        }
+
+        input {
+            height: 50px;
+        }
+
+        .agree label {
+            max-width: 280px;
+        }
+
+        .submit {
+            padding: 15px 0;
+        }
+    }
+
+    .contacts {
+
+        &-wrapper {
+            padding: 120px 20px 71px 20px;
+        }
+    }
+}
+
+
+@media (max-width: 786px) {
+    .contacts {
+        &-wrapper {
+            padding: 120px 20px 50px 20px;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 30px;
+        }
+
+        &-text {
+            max-width: 80%;
+
+            h2 {
+                text-align: center;
+            }
+
+            p {
+                text-align: center;
+            }
+        }
+
+        &-data {
+            margin: 0 auto;
+            margin-top: 30px;
+            row-gap: 10px;
+
+            .tel {
+                margin: 0 auto;
+                font-size: 22px;
+            }
+
+            .email {
+                margin: 0 auto;
+                font-size: 16px;
+            }
+        }
+
+        .project {
+            max-width: 70%;
+            margin-top: 40px;
+        }
+
+        .icons-wrapper {
+            display: flex;
+        }
+    }
+
+    .popup {
+        width: 100%;
+
+        form {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .agree {
+            column-gap: 12px;
+        }
+
+        .agree label {
+            max-width: 100%;
+        }
+
+        .submit {
+            max-width: 100%;
+            margin-top: 16px;
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .contacts {
+        &-text {
+            max-width: 100%;
+        }
+    }
+
+    .popup {
+        form {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 460px) {
+    .contacts {
+
+        .miniD {
+            width: 160px;
+        }
+
+        &-text {
+            h2 {
+                font-size: 30px;
+                line-height: 36px;
+            }
+        }
+
+        .project {
+            max-width: 100%;
+            padding: 0 30px;
+        }
+
+        .icons-wrapper {
+            padding: 0 30px;
+
+            .icon {
+                width: 40px;
+                height: 40px;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+
+    .popup {
+        .agree label {
+            max-width: 300px;
+        }
+    }
+}
+
+@media (max-width: 380px) {
+    .popup {
+        .agree label {
+            max-width: 220px;
+        }
+    }
+}

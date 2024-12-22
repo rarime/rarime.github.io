@@ -1,0 +1,155 @@
+@media (max-width: 1350px) {
+    .mainScreen {
+        padding: 30px 110px 110px 110px;
+        .drupliconImg {
+            top: -156%;
+        }
+
+        .mainImg {
+            display: none;
+        }
+
+        .advantages {
+            column-gap: 20px;
+            row-gap: 60px;
+        }
+
+        .mainScreen-text {
+            max-width: 384px;
+            h1 {
+                font-size: 42px;
+            }
+            .subtitle {
+                font-size: 16px;
+                margin: 13px 0 30px 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .mainScreen {
+        .container-flex {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .advantages {
+            column-gap: 56px;
+            max-width: 571px;
+        }
+
+        .drupliconImg {
+            top: -60%;
+        }
+    }
+}
+
+@media (max-width: 990px) {
+    .mainScreen {
+        padding: 80px 110px 110px 110px;
+
+        .drupliconImg {
+            top: -10%;
+            left: -10%;
+        }
+    }
+}
+
+@media (max-width: 831px) {
+    .mainScreen {
+        padding: 80px 0 110px 0;
+        .container-flex {
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 568px) {
+    .mainScreen {
+        padding: 60px 0 90px 0;
+        .mainScreen-text {
+            max-width: 384px;
+            h1 {
+                font-size: 38px;
+                line-height: 50px;
+            }
+            .subtitle {
+                line-height: 24px;
+            }
+            .btn {
+                width: 160px;
+                padding: 16px 0;
+            }
+        }
+
+        .drupliconImg {
+            top: 8%;
+            left: -15%;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .mainScreen {
+        .mainScreen-text {
+            h1 {
+                font-size: 30px;
+                line-height: 45px;
+            }
+            .subtitle {
+                margin: 13px 0 20px 0;
+            }
+            .btn {
+                width: 160px;
+                padding: 16px 0;
+            }
+        }
+
+        .advantages {
+            column-gap: 10px;
+            row-gap: 40px;
+
+            &-item {
+                .text {
+                    font-size: 12px;
+                }
+
+                .number {
+                    font-size: 20px;
+                }
+
+                .trophy {
+                    font-size: 30px;
+
+                    img {
+                        width: 50px;
+                    }
+                }
+            }
+        }
+
+        .drupliconImg {
+            top: 18%;
+            left: -15%;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .mainScreen {
+        .container-flex {
+            padding: 0 10px;
+        }
+
+        .advantages {
+            max-width: 100%;
+            column-gap: 0px;
+            justify-content: space-around;
+
+            &-item .text {
+                max-width: 118px;
+            }
+        }
+    }
+}

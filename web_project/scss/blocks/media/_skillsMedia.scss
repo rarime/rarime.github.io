@@ -1,0 +1,99 @@
+@media (max-width: 1250px) {
+    .skills {
+        &-wrapper {
+            max-width: 100%;
+            column-gap: 80px;
+            justify-content: center;
+        }
+
+        .h2-wrapper {
+            padding-left: 60px;
+        }
+    }
+}
+
+@media (max-width: 1010px) {
+    .skills {
+        .h2-wrapper {
+            width: auto;
+            padding-left: 0;
+        }
+    }
+} 
+
+@media (max-width: 940px) {
+    .skills {
+        padding: 60px 0 80px 0;
+        h2 {
+            font-size: 32px;
+            line-height: 36px;
+        }
+
+        .subtitle {
+            margin: 18px 0 50px 0;
+        }
+
+        &-wrapper {
+            justify-content: center;
+            column-gap: 50px;
+        }
+
+        &-card {
+            .text {
+                max-width: 152px;
+                font-size: 14px;
+            }
+            
+            .img-wrap {
+                width: 60px;
+            }
+
+            .skillImg {
+                width: 60px;
+            }
+
+            .vector {
+                right: 28px;
+                top: 28px;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .skills {
+        padding: 50px 0 80px 0;
+        h2 {
+            font-size: 28px;
+            line-height: 28px;
+        }
+
+        .subtitle {
+            margin: 14px 0 40px 0;
+        }
+    }
+}
+
+@media (max-width: 460px) {
+    .skills {
+        padding: 50px 0 80px 0;
+        h2 {
+            font-size: 26px;
+            line-height: 26px;
+        }
+
+        .subtitle {
+            font-size: 15px;
+        }
+        &-card {
+            .text {
+                max-width: 105px;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width: 360px) {
+
+}

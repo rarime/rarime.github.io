@@ -1,0 +1,41 @@
+.team {
+    background-color: #fff;
+    padding: 80px 250px;
+    color: rgb(5, 12, 51);
+    text-align: center;
+
+    &-wrapper {
+        margin-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 120px;
+        row-gap: 70px;
+        justify-content: center;
+    }
+
+    &-item {
+        max-width: 280px;
+    }
+
+    h2 {
+        font-size: 42px;
+        font-weight: 700;
+    }
+
+    .name {
+        color: rgb(5, 12, 51);
+        font-size: 16px;
+        font-weight: 700;
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    p {
+        margin-top: 3px;
+        color: gray;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: left;
+    }
+}

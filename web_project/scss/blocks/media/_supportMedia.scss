@@ -1,0 +1,38 @@
+@media (max-width: 1200px) {
+    .support {
+        &-wrapper {
+            grid-template-columns: repeat(2, 0fr);
+            grid-gap: 10px;
+        }
+
+        &-card {
+            width: 380px;
+        }
+    }
+}
+
+@media (max-width: 786px) {
+    .support {
+        &-wrapper {
+            margin-top: 40px;
+            grid-gap: 5px;
+        }
+
+        &-card {
+            width: 280px;
+        }
+    }
+}
+
+@media (max-width: 580px) {
+    .support {
+        &-wrapper {
+            margin-top: 30px;
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        &-card {
+            width: 100%;
+        }
+    }
+}

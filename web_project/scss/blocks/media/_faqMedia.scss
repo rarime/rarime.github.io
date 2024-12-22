@@ -1,0 +1,32 @@
+@media (max-width: 1000px) {
+    .faq {
+        padding: 0 20px 50px 20px;
+
+        h2 {
+            font-size: 36px;
+        }
+
+        &-item {
+            padding: 12px 10px;
+            margin-bottom: 2px;
+        }
+    }
+}
+
+@media (max-width: 786px) {
+    .faq {
+        h2 {
+            font-size: 34px;
+        }
+
+        &-item {
+            h3 {
+                font-size: 16px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+}
