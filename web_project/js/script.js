@@ -78,7 +78,6 @@ $(document).ready(function(){
     });
   });
 
-
 // slider2
 $(document).ready(function(){
     $('.slider2').slick({
