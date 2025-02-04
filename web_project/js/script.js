@@ -53,7 +53,7 @@ $(document).ready(function(){
       centerMode: true, // Центрирование слайдов
       variableWidth: true, // Частично видимые слайды
       autoplay: true, // Автопрокрутка
-      autoplaySpeed: 2000, // Интервал 5 секунд
+      autoplaySpeed: 2000, // Интервал 2 секунды
       arrows: false, // Убираем стрелки
       responsive: [
         {
@@ -86,7 +86,7 @@ $(document).ready(function(){
       centerMode: true, // Центрирование слайдов
       variableWidth: true, // Частично видимые слайды
       autoplay: true, // Автопрокрутка
-      autoplaySpeed: 800, // Интервал 5 секунд
+      autoplaySpeed: 800, // Интервал 0.8 секунд
       arrows: false, // Убираем стрелки
       responsive: [
         {
